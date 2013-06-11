@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ui-bar-a
+{ 
+	background: #00529B; box-shadow: 1px 1px 20px 5px #191919
+}
+
+.ui-page 
+{ 
+	background: #004A33;
+}
+
+.ui-icon
+{	
+	/*
+	width:84px;
+	height:30px;
+ 	border-top: 1px solid #858585;
+	background: white;
+	padding: 7px 14px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+	box-shadow: rgba(0,0,0,1) 0 1px 0; 
+	text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+	color: green; 
+	font-size: 16px; 
+	font-family: helvetica, arial, Georgia, serif; 
+	text-decoration: none; 
+	vertical-align: middle; 
+	background-size:22px 24px;
+	height: 30px !important;
+	width: 30px !important;
+	display:block;
+	*/
+} 
+
+.ui-icon-schedule
+{
+	width:27px;
+	height:35px;
+	vertical-align: middle; 
+	background-size:30px 30px;
+	display:block;
+	background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+	
+}
+
+.ui-icon-information
+{
+	width:27px;
+	height:35px;
+	vertical-align: middle; 
+	background-size:30px 30px;
+	display:block;
+	background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+}
+
+.ui-icon-resources
+{
+	width:27px;
+	height:35px;
+	vertical-align: middle; 
+	background-size:30px 30px;
+	display:block;
+	background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+}
