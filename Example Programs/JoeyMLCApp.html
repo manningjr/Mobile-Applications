@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Page</title> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" 
+    href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+<!--<script src="js/tutors.js" type="text/javascript"> </script>-->
+<style>
+ <!--.ui-page { background: #004A33;}-->
+ .ui-page { background-image:url('http://i.imgur.com/ECFLgTM.png');}
+ .ui-bar-a{ background: #00529B; box-shadow: 1px 1px 20px 5px #191919} 
+.ui-content{color:#FFFFFF;text-shadow: 1px 2px 2px #000; font-weight: bold;}
+h1{text-shadow: 1px 2px 2px #000;font-weight:bold;}
+</style>
+</head> 
+
+<body onLoad="initializeData();">
+<div data-role="page" id="page1">
+ <div data-role="header" >
+   <h1 style="font-size: 140%;">MLC Language Lab</h1>
+ </div>
+ <div data-role="content">
+<center>
+<a href="#sched"><img src="http://i.imgur.com/Wa68XPJ.png"></a><br>
+<a href="#info"><img src="http://i.imgur.com/qGwjfFX.png"></a><br>
+<a href="#res"><img src="http://i.imgur.com/l7PiLUP.png"></a><br>
+<img src="http://i.imgur.com/pi4m5MB.png" height="174" width="579">
+</center>
+ </div>
+</div> <!-- page 1 -->
+
+
+<div data-role="page" id="sched"  data-add-back-btn="true">
+ <div data-role="header">
+   <h1 style="font-size: 140%;">Schedule</h1>
+ </div>
+ <div data-role="content">
+<ul data-role="listview" data-inset="true" >
+ <li><a href="https://dl.dropboxusercontent.com/u/45361940/Schedule.html#Spanish" rel="external">SPANISH</a></li>
+ <li><a href="https://dl.dropboxusercontent.com/u/45361940/Schedule.html#French" rel="external">FRENCH</a></li>
+ <li><a href="https://dl.dropboxusercontent.com/u/45361940/Schedule.html#Italian" rel="external">ITALIAN</a></li>
+ <li><a href="https://dl.dropboxusercontent.com/u/45361940/Schedule.html#German" rel="external">GERMAN</a></li>
+</ul>
+ </div>
+</div> <!-- Schedule -->
+
+<div data-role="page" id="info"  data-add-back-btn="true">
+ <div data-role="header">
+   <h1 style="font-size: 140%;">Information</h1>
+ </div>
+ <div data-role="content">
+ 	 <ul data-role="listview" data-inset="true" >
+ <li><a href="" rel="external">LOCATION & HOURS</a></li>
+ <li><a href="" rel="external">FACULTY & STAFF</a></li>
+ <li><a href="#tutors" rel="external">TUTORS</a></li>
+</ul>
+ </div>
+</div> <!-- Information -->
+
+<div data-role="page" id="res"  data-add-back-btn="true">
+ <div data-role="header">
+   <h1 style="font-size: 140%;">Resources</h1>
+ </div>
+ <div data-role="content">
+   	 <ul data-role="listview" data-inset="true" >
+ <li><a href="" rel="external">MEDIA LIBRARY</a></li><br>
+ <li><a href="" rel="external">WORD REFERENCE</a></li><br>
+ <li><a href="" rel="external">USEFULL APPS</a></li><br>
+</ul>
+ </div>
+</div> <!-- Resources -->
+
+<div data-role="page" id="tutors"  data-add-back-btn="true">
+ <div data-role="header">
+   <h1 style="font-size: 140%;">Tutors</h1>
+ </div>
+ <div data-role="content">
+
+ </div>
+</div> <!-- Tutors -->
+
+<ul  style="display:none">
+<li id="tutorTemplate"> Tutor name </li>
+</ul>
+
+
+</body>
+</html>

@@ -8,35 +8,21 @@
 
 .ui-page 
 { 
-	background: #004A33;
+	background-image:url('http://i.imgur.com/ECFLgTM.png');
 }
 
-.ui-icon
-{	
-	/*
-	width:84px;
-	height:30px;
- 	border-top: 1px solid #858585;
-	background: white;
-	padding: 7px 14px; 
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
-	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
-	box-shadow: rgba(0,0,0,1) 0 1px 0; 
-	text-shadow: rgba(0,0,0,.4) 0 1px 0; 
-	color: green; 
-	font-size: 16px; 
-	font-family: helvetica, arial, Georgia, serif; 
-	text-decoration: none; 
-	vertical-align: middle; 
-	background-size:22px 24px;
-	height: 30px !important;
-	width: 30px !important;
-	display:block;
-	*/
-} 
+.ui-content
+{
+	color:#FFFFFF;
+	text-shadow: 1px 2px 2px #000;
+	font-weight: bold;
+}
+
+h1
+{
+	text-shadow: 1px 2px 2px #000;
+	font-weight:bold;
+}
 
 .ui-icon-schedule
 {
@@ -45,7 +31,8 @@
 	vertical-align: middle; 
 	background-size:30px 30px;
 	display:block;
-	background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+	/* This is where the icon image goes */
+		background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
 	
 }
 
@@ -56,7 +43,8 @@
 	vertical-align: middle; 
 	background-size:30px 30px;
 	display:block;
-	background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+	/* This is where the icon image goes */
+		background-image: url("http://upload.wikimedia.org/wikipedia/en/5/54/Information.png");
 }
 
 .ui-icon-resources
@@ -66,5 +54,6 @@
 	vertical-align: middle; 
 	background-size:30px 30px;
 	display:block;
-	background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+	/* This is where the icon image goes */
+		background-image: url("http://www.realityofchris.com/wp-content/uploads/2012/10/resources.gif");
 }
