@@ -18,7 +18,6 @@ function db_connect()
 	$username="mjohn";
 	$password="mjohn";
     $dbName="mjohn";
-	$dbName="mlcml";
 	
     $link=mysql_connect($server, $username, $password) or die (mysql_error());
 	mysql_set_charset('utf8',$link);
