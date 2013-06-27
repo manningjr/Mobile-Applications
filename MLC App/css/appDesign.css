@@ -1,22 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.ui-bar-a
-{ 
-	background: #00529B; box-shadow: 1px 1px 20px 5px #191919
-}
+/* Page Header */
+	.ui-bar-a
+	{ 
+		background: #00529B; box-shadow: 1px 1px 20px 5px #191919;
+	}
 
-.ui-page 
-{ 
-	background-image:url('http://i.imgur.com/ECFLgTM.png');
-}
-
-.ui-content
-{
-	color:#FFFFFF;
-	text-shadow: 1px 2px 2px #000;
-	font-weight: bold;
-}
+/* Page Background */
+	.ui-page 
+	{ 
+		background-image:url('http://i.imgur.com/ECFLgTM.png');
+	}
 
 h1
 {
@@ -24,36 +19,72 @@ h1
 	font-weight:bold;
 }
 
-.ui-icon-schedule
+h2
 {
-	width:27px;
-	height:35px;
-	vertical-align: middle; 
-	background-size:30px 30px;
-	display:block;
-	/* This is where the icon image goes */
-		background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-5/256/schedule-icon.png");
+	text-shadow: none;
+	color: white;
+	font-weight:bold;
+}
+
+p
+{
+	text-shadow: none;
+	color: white;
+	font-weight:none;
+}
+
+t{
+	color:white;
+}
+
+.tutorTable{
 	
+background-color:white;
+text-align:center;
+border: 1px solid black;
+
 }
 
-.ui-icon-information
-{
-	width:27px;
-	height:35px;
-	vertical-align: middle; 
-	background-size:30px 30px;
-	display:block;
-	/* This is where the icon image goes */
-		background-image: url("http://upload.wikimedia.org/wikipedia/en/5/54/Information.png");
+.tutorsTitle{
+	list-style:none;
 }
 
-.ui-icon-resources
-{
-	width:27px;
-	height:35px;
-	vertical-align: middle; 
-	background-size:30px 30px;
-	display:block;
-	/* This is where the icon image goes */
-		background-image: url("http://www.realityofchris.com/wp-content/uploads/2012/10/resources.gif");
+.tutorsLists{
+	list-style:none;
+	display:inline;
+}
+
+/* * * * * * * * * * * * * * *
+	Media Library formatting.
+ * * * * * * * * * * * * * * */
+
+div.titleBox{
+
+}
+
+span.mediaTitle{
+    color:#000000;
+    font-size: 16pt;
+}
+
+span.mediaYear{
+    color: #363636;
+}
+
+span.mediaType{
+    color: #397D02;
+}
+
+span.mediaLanguage{
+    color: #33A1DE;
+}
+
+span.mediaAvaliable{
+    color: #000000;
+}
+
+div.imageBox{
+	margin-left:5px;
+	float:right;
+	clear:right;
 }
